@@ -2,7 +2,7 @@
 
 Submitted by: **Mohammed Nazib Hossain Khan**
 
-This web app: **dispaly**
+This web app: **The Weather Data Dashboard is a web application designed to provide users with comprehensive weather information for New York City. Utilizing data from the Weatherbit API, this dashboard offers a user-friendly interface to explore current weather conditions and forecasts.**
 
 Time spent: **6** hours spent in total
 
