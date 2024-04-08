@@ -20,12 +20,12 @@ Here's a walkthrough of implemented user stories:
 
 <img src='src\assets\weatherApp.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with ...  [ScreenToGif](https://www.screentogif.com/) for Windows
+GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+There are some issues with the API so the Data Visuals are currently bugged but it everything works fine.
 
 ## License
 
