@@ -8,7 +8,7 @@ import WeatherFilters from './WeatherFilters';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
 
-const API_KEY = 'b4b73220631b49c0a6f79e4298e75e68';
+const API_KEY = '';
 const API_URL = 'https://api.weatherbit.io/v2.0/forecast/daily';
 
 function WeatherDashboard() {
