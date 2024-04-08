@@ -5,14 +5,24 @@ function WeatherList({ weatherData }) {
   return (
     <div className="weather-list">
       <h2>Weather List</h2>
-      <ul>
-        {weatherData.map((weatherItem, index) => (
-          <li key={index}>
-            {/* Render weather item details */}
-            {/* You can customize the display of each weather item */}
-          </li>
-        ))}
-      </ul>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Temperature (°F)</th>
+            <th>Time for Moon Phase</th>
+          </tr>
+        </thead>
+        <tbody>
+          {weatherData.map((weatherItem, index) => (
+            <tr key={index}>
+              <td>{weatherItem.datetime}</td>
+              <td>{weatherItem.temp} °F</td>
+              <td>{weatherItem.moonrise}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 }

@@ -11,7 +11,7 @@ function WeatherSearch({ setSearchQuery }) {
     <div className="weather-search">
       <input
         type="text"
-        placeholder="Search weather..."
+        placeholder="Search weather by city..."
         onChange={handleSearch}
       />
     </div>
